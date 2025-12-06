@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/admin"
+        android:layout_gravity="center"
+         />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/options"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/approve_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/APPROVE_RESTAURANT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/approve_org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/APPROVE_ORGANIZATION"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/view_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/VIEW_RESTAURANT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/view_org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/VIEW_ORGANIZATION"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/delete_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/DELETE_RESTAURANT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/delete_org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/DELETE_ORGANIZATION"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/view_deleted_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/VIEW_DELETED_RESTAURANT"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/view_deleted_org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/VIEW_DELETED_ORGANIZATION"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/view_donations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/VIEW_DONATIONS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:layout_margin="10dp"
+        android:onClick="next"
+        android:text="@string/NEXT"
+        />
+
+</LinearLayout>
+</ScrollView>

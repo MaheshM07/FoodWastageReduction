@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Food Wastage Reduction Through Donation</string>
+    <string name="ADMIN">Admin</string>
+    <string name="RESTAURANT">Restaurant</string>
+    <string name="CHARITY_ORG">Charity Organization</string>
+    <string name="Button">Next</string>
+    <string name="USERNAME">Username</string>
+    <string name="PASSWORD">Password</string>
+    <string name="APPROVE_RESTAURANT">Approve Restaurant</string>
+    <string name="APPROVE_ORGANIZATION">Approve Organization</string>
+    <string name="VIEW_RESTAURANT">View Approved Restaurant</string>
+    <string name="VIEW_ORGANIZATION">View Approved Organization</string>
+    <string name="DELETE_RESTAURANT">Delete Restaurant</string>
+    <string name="DELETE_ORGANIZATION">Delete Organization</string>
+    <string name="NEXT">Next</string>
+    <string name="REGISTER">REGISTER</string>
+    <string name="LOGO">Restaurant Logo</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="SIGN_UP">SIGN UP</string>
+    <string name="FORGOT_PASSWORD">Forgot Password</string>
+    <string name="VEG">Veg</string>
+    <string name="NON_VEG">Non Veg</string>
+    <string name="RESTAURANT_TYPE">Restaurant Type</string>
+    <string name="EDIT_PROFILE">Edit Profile</string>
+    <string name="DONATE">Donate</string>
+    <string name="View_Feedback">View feedback</string>
+    <string name="Org_LOGO">Organization Logo</string>
+    <string name="GIVE_FEEDBACK">Give Feedback</string>
+    <string name="VIEW_DONATIONS">View Donations</string>
+    <string name="VERSION">(Ver 1.0)</string>
+    <string name="LOADING">Loading...</string>
+    <string name="CHANGE_PASSWORD">Change Password</string>
+    <string name="HELP">Help</string>
+    <string name="OLD_PASSWORD">Old Password</string>
+    <string name="NEW_PASSWORD">New Password</string>
+    <string name="CONFIRM_NEW_PASSWORD">Confirm new Password</string>
+    <string name="LOGOUT">Logout</string>
+    <string name="ABOUT_US">About</string>
+    <string name="FEEDBACK">Feedback</string>
+    <string name="ADDRESS">Address:</string>
+    <string name="MAIL">Mail:</string>
+    <string name="MOBILE_NO">Mobile:</string>
+
+    <string name="APPROVE">APPROVE</string>
+    <string name="ORGANIZATION_NAME">Name:</string>
+    <string name="ORGANIZATION_DETAILS">Organization Details</string>
+
+    <string name="ORGANIZATION_LIST">Organization List</string>
+
+    <string name="SELECT_ORGANIZATION_TO_DELETE">Select Organization</string>
+    <string name="DELETE_RESTAURANTS">Delete Restaurant</string>
+    <string name="SELECT_RESTAURANT_TO_DELETE">Select Restaurant to Delete</string>
+    <string name="SELECT_RESTAURANT">Select Restaurant</string>
+
+    <string name="RESTAURANT_LIST">Restaurant List</string>
+    <string name="RESTAURANT_DETAILS">Restaurant Details</string>
+    <string name="NAME">Name:</string>
+    <string name="WEBSITE">Website:</string>
+    <string name="FOOD_TYPE">Food Type:</string>
+    <string name="EDIT_DETAILS">Edit Details</string>
+    <string name="EMAIL_ADDRESS">Email Address</string>
+    <string name="MOBILE_NUMBER">Mobile Number</string>
+    <string name="PROFILE_PHOTO">Select Profile Photo</string>
+    <string name="EDIT">Edit</string>
+    <string name="FEEDBACK_LIST">Feedback List</string>
+    <string name="ENTER_FEEDBACK">Enter Feedback</string>
+    <string name="QUANTITY">Sufficient For (Number of persons):</string>
+    <string name="USER">User</string>
+    <string name="SELECT_IMAGE">Select Image</string>
+    <string name="VIEW_PROFILE">View Profile</string>
+    <string name="DONATE_FOOD">Donate Food</string>
+    <string name="FEEDBACK_DETAILS">Feedback Details</string>
+    <string name="USER_DETAILS">User Details</string>
+    <string name="USER_NAME">Name:</string>
+    <string name="BOTH"><![CDATA[Both Veg & Non Veg]]></string>
+    <string name="ENTER_ADDRESS">Enter Address</string>
+    <string name="AVAILABLE_FOR">Available for next(in hours)</string>
+    <string name="WAITING_FOR_APPROVAL">Waiting For Approval...</string>
+    <string name="VIEW_DELETED_RESTAURANT">View Deleted Restaurant</string>
+    <string name="VIEW_DELETED_ORGANIZATION">View Deleted Organization</string>
+    <string name="VIEW">View</string>
+    <string name="DONATION_LIST">Donation List</string>
+    <string-array name="Quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>greater than 50</item>
+    </string-array>
+
+</resources>

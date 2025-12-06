@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.android">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:name=".utility.AppInstance"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Food wastage management system@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitycontrollers.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activitycontrollers.UserSelectionActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.AdminChangePasswordActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.AdminLoginActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.AdminHomeActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ApproveOrganizationActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ApproveOrganizationListActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ApproveRestaurantActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.DeleteOrganizationActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.DeleteRestaurantActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.RestaurantDetailsActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ViewRestaurantsActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ApproveRestaurantListActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ViewOrganizationActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ViewDeletedOrganizationActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ViewDeletedRestaurantActivity"></activity>
+        <activity android:name=".activitycontrollers.admin.ViewDonationsActivity"></activity>
+
+        <activity android:name=".activitycontrollers.restaurant.DonateFoodActivity"></activity>
+        <activity android:name=".activitycontrollers.restaurant.EditProfileActivity"></activity>
+        <activity android:name=".activitycontrollers.restaurant.RestaurantHomeActivity"></activity>
+        <activity android:name=".activitycontrollers.restaurant.RestaurantLoginActivity"></activity>
+        <activity android:name=".activitycontrollers.restaurant.ViewFeedbackActivity"></activity>
+        <activity android:name=".activitycontrollers.restaurant.FeedbackDetailsActivity"></activity>
+        <activity android:name=".activitycontrollers.restaurant.RestaurantSignupActivity"></activity>
+
+        <activity android:name=".activitycontrollers.user.EditProfileActivity"></activity>
+        <activity android:name=".activitycontrollers.user.ViewProfileActivity"></activity>
+        <activity android:name=".activitycontrollers.user.UserHomeActivity"></activity>
+        <activity android:name=".activitycontrollers.user.UserLoginActivity"></activity>
+        <activity android:name=".activitycontrollers.user.UserSignUpActivity"></activity>
+        <activity android:name=".activitycontrollers.user.DonateFoodActivity"></activity>
+
+        <activity android:name=".activitycontrollers.organization.OrganizationHomeActivity"></activity>
+        <activity android:name=".activitycontrollers.organization.OrganizationLoginActivity"></activity>
+        <activity android:name=".activitycontrollers.organization.OrganizationSignUpActivity"></activity>
+        <activity android:name=".activitycontrollers.organization.ChangePasswordActivity"></activity>
+        <activity android:name=".activitycontrollers.organization.EditProfileActivity"></activity>
+        <activity android:name=".activitycontrollers.organization.GiveFeedbackActivity"></activity>
+        <activity android:name=".activitycontrollers.organization.ViewProfileActivity"></activity>
+
+    </application>
+
+</manifest>
